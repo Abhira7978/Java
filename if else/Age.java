@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Age {
     public static void main(String a[]){
-        System.out.println("Enter the age:");
+        System.out.println("Enter the age:5");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
