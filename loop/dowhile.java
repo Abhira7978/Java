@@ -4,6 +4,6 @@ public class dowhile {
     int i=0;
     do{
         System.out.println(i);
-    }while(i<11)
+    }while(i<11);
     
 }
