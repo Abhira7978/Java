@@ -12,7 +12,7 @@ public class rectangle {
             for(int j=0;j<=m;j++){
                 System.out.print("* ");
             }
-            System.out.println(" \n");
+            System.out.println();
             
 
 
