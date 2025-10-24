@@ -2,11 +2,16 @@ import java.util.Scanner;
 
 public class Factorial {
     public static int calculateFactorial(int n){
+        if (n<=0){
+            System.out.println("invalid number");
+            return 0;
+        }
         int fact=1;
         for(int i=n;i>=1;i--){
             fact=fact*i;}
             
             return fact;
+        
 
         }
         public static void main(String arg[]){
