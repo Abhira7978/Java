@@ -3,6 +3,9 @@ package Strings;
 import java.util.Scanner;
 
 public class Functions {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter The First name");
@@ -16,16 +19,28 @@ public class Functions {
 
 
 
-        // for(int i = 0;i<=Fullname.length();i++){
-        //     System.out.print(Fullname.charAt(i)); //It Is To return All The Index Of The String
+        // for(int i = 0;i<Fullname.length();i++){
+        //     System.out.println(Fullname.charAt(i)); //It Is To return All The Index Of The String
         // }
+    
 
+    StringBuilder sb = new StringBuilder("T");
+    System.out.println(sb);
+
+    // //Print The element Of Index
+    // System.out.println(sb.charAt(0));
+
+    // sb.setCharAt(0,'p');
+    // System.out.println(sb);
+    // sb.insert(2, 'n');
+    // System.out.println(sb);
+
+    sb.append("o");
+    sb.append("n");
+    sb.append("y");
+    System.out.println(sb);
         
-Scanner sc = new Scanner(System.in);
-String Sentence = sc.nextLine();
 
-String name = Sentence.substring(4);
-System.out.println(name);
 
 
 
