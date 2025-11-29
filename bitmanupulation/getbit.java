@@ -1,0 +1,17 @@
+package bitmanupulation;
+
+public class bit {
+    public static void main(String[] args) {
+        int n = 5;
+        int pos =2;
+        int bitMask=1<<pos;
+
+        if ((bitMask &n)==0) {
+            System.out.println("It Is A Zero");
+            
+        }else{
+            System.out.println("It Is A Non Zero");
+        }
+    }
+    
+}

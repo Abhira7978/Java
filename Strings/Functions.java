@@ -27,13 +27,13 @@ public class Functions {
     StringBuilder sb = new StringBuilder("T");
     System.out.println(sb);
 
-    // //Print The element Of Index
-    // System.out.println(sb.charAt(0));
+    //Print The element Of Index
+    System.out.println(sb.charAt(0));
 
-    // sb.setCharAt(0,'p');
-    // System.out.println(sb);
-    // sb.insert(2, 'n');
-    // System.out.println(sb);
+    sb.setCharAt(0,'p');
+    System.out.println(sb);
+    sb.insert(2, 'n');
+    System.out.println(sb);
 
     sb.append("o");
     sb.append("n");
