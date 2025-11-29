@@ -1,6 +1,6 @@
 package bitmanupulation;
 
-public class bit {
+public class getbit {
     public static void main(String[] args) {
         int n = 5;
         int pos =2;
