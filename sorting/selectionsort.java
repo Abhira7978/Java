@@ -31,27 +31,30 @@ public class selectionsort {
 
 
 
-// Algorithm: Bubble_Sort(arr)
+// step-by-Step Algorithm
 
-// 1.Start
+// Start
 
-// 2.Input array arr of size n.
+// Repeat steps 3–7 for i = 0 to n − 2
+// (This selects each position one by one)
 
-// 3.Repeat the following steps for each pass
-// For i = 0 to n - 2
-// (This loop controls the number of passes)
+// Set smallest = i
+// (Assume current index has the smallest value)
 
-// 4.For each pass, compare adjacent elements
-// For j = 0 to n - i - 2
-// (Elements after n - i - 1 are already sorted)
+// Repeat steps for j = i + 1 to n − 1
+// (Search the smallest element in the remaining array)
 
-// 5.If the current element is greater than the next element, then
-// a. Swap arr[j] and arr[j + 1].
+// If arr[j] < arr[smallest]
+// then set smallest = j
+// (Found a new smaller element)
 
-// 6.End inner loop (j loop)
+// After completing inner loop, swap
 
-// 7.End outer loop (i loop)
+// temp = arr[smallest]
+// arr[smallest] = arr[i]
+// arr[i] = temp
 
-// 8.Output the sorted array.
 
-//9. Stop
+// Continue until whole array is sorted
+
+// Stop
