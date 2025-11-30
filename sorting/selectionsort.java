@@ -1,6 +1,6 @@
 package sorting;
 
-public class bubblesort {
+public class selectionsort {
     public static void printArray(int arr[]){
         for(int i =0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
@@ -10,17 +10,19 @@ public class bubblesort {
         //bubble sort
         int arr[]={7,8,3,1,2};
 
-//For loop For Counting
+//selection
         for(int i = 0;i<arr.length-1;i++){
-            //For loop For The sorting Of Array
-            for(int j = 0;j<arr.length-i-1;j++){
-                if(arr[j]>arr[j+1]){
-                    //Swap
-                    int temp=arr[j];
-                    arr[j]=arr[j+1];
-                    arr[j+1]=temp;
+            int smallest=i;
+            for(int j = i+1;j<arr.length;j++){
+                if(arr[smallest]>arr[j]){
+                    smallest=j;
                 }
+                
             }
+            int temp=arr[smallest];
+                arr[smallest]=arr[i];
+                arr[i]=temp;
+            
         }
         printArray(arr);
     }
