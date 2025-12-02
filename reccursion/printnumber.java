@@ -2,7 +2,7 @@ package reccursion;
 
 public class printnumber {
     public static void printNumb(int n) {
-        if (n==6) {
+        if (n==5) {
             return;
         }
         // for(int i =5;i>0;i--){
