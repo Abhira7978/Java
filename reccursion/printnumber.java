@@ -1,4 +1,4 @@
-package reccursion;
+
 
 public class printnumber {
     public static void printNumb(int n) {
@@ -9,11 +9,11 @@ public class printnumber {
         //     System.out.println(i);
         // }
         System.out.println(n);
-        printNumb(n+1);
+        printNumb(n-1);
         
     }
     public static void main(String[] args) {
-        int n = 1;
+        int n = 5;
         printNumb(n);
         
     }

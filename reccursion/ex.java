@@ -1,0 +1,31 @@
+package reccursion;
+
+import java.util.Scanner;
+
+public class ex {
+    public static int fib(int n){
+        if(n==0){
+            return 0;
+        }else if(n==1){
+            return 1;
+        }else{}
+        int firstterm=0;
+        int secondterm=1;
+
+        for(int i =0;i<=n-1;i++){
+            int thirdterm=firstterm+secondterm;
+
+            firstterm=secondterm;
+            secondterm=thirdterm;
+
+        }
+        return firstterm;
+    }
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int n =sc.nextInt();
+        int a =fib(n);
+        System.out.println(a);
+    }
+    
+}
